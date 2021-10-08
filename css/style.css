@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-image: url(../img/back.png);
+}
 .clear::after {
   content: '';
   display: block;
@@ -48,7 +51,7 @@ li {
   width: 36px;
 }
 .head ul li.active {
-  color: #404040;
+  color: #1895D7;
 }
 .content {
   text-align: center;

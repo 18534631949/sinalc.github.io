@@ -9,7 +9,7 @@ for(var i=0;i<li.length;i++){
       main[num].classList.remove('active')
       li[num].classList.remove('active')
       li[num].innerHTML = '<p>'+arr[num]+'</p>'
-      li[i].innerHTML = '<p>'+arr[i]+'</p><img src="img/line.png">'
+      li[i].innerHTML = '<p>'+arr[i]+'</p><img src="img/line_active.png">'
       
       main[i].classList.add('active')
       li[i].classList.add('active')
